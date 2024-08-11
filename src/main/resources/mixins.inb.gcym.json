@@ -1,0 +1,12 @@
+{
+  "package": "com.github.gtexpert.inb.mixin.gcym",
+  "refmap": "mixins.inb.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MetaTileEntityElectricImplosionCompressorMixin"
+  ],
+  "client": [],
+  "server": []
+}
