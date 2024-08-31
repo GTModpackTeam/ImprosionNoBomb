@@ -31,6 +31,9 @@ jobs:
       - name: Setup Build
         uses: ./.github/actions/build_setup
 
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
       - name: Run Spotless Formatting Check with Gradle
         id: build
         run: ./gradlew --info spotlessCheck
