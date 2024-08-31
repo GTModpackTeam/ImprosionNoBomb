@@ -34,7 +34,7 @@ public class INBRecipeMaps {
     @ZenProperty
     public static final RecipeMap<SimpleRecipeBuilder> FAKE_IMPLOSION_RECIPES = new RecipeMap<>(
             "fake_implosion_compressor", 3, 2, 0, 0,
-            new SimpleRecipeBuilder().duration(20).EUt(VA[LV]), false)
+            new SimpleRecipeBuilder().duration(20).EUt(VA[LV]), true)
                     .onRecipeBuild(recipeBuilder -> {
                         RecipeMaps.IMPLOSION_RECIPES.recipeBuilder()
                                 .inputs(recipeBuilder.getInputs().toArray(new GTRecipeInput[0]))
