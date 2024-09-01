@@ -25,7 +25,7 @@ env:
   NAME: "ImplosionNoBomb"
 
   # Curseforge and Modrinth project IDs
-  CURSEFORGE_PROJECT_ID: "1093753"
+  CURSEFORGE_PROJECT_ID: "1094386"
   #MODRINTH_PROJECT_ID: "LRBGeIQP"
 
 concurrency:
