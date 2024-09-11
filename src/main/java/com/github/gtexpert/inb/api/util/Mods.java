@@ -19,9 +19,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import com.github.gtexpert.inb.api.INBValues;
-
 import gregtech.api.GTValues;
+
+import com.github.gtexpert.inb.api.INBValues;
 
 public enum Mods {
 

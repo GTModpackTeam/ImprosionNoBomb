@@ -19,10 +19,11 @@ import net.minecraftforge.fml.common.event.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.github.gtexpert.inb.api.INBValues;
-import com.github.gtexpert.inb.api.modules.*;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableList;
+
+import com.github.gtexpert.inb.api.INBValues;
+import com.github.gtexpert.inb.api.modules.*;
 
 public class INBModuleManager implements IModuleManager {
 

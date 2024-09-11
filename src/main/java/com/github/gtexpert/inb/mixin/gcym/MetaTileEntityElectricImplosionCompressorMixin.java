@@ -4,11 +4,12 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 
-import com.github.gtexpert.inb.api.recipes.INBRecipeMaps;
-
-import gregicality.multiblocks.common.metatileentities.multiblock.standard.MetaTileEntityElectricImplosionCompressor;
 import gregtech.api.recipes.RecipeMap;
 import gregtech.api.recipes.builders.SimpleRecipeBuilder;
+
+import gregicality.multiblocks.common.metatileentities.multiblock.standard.MetaTileEntityElectricImplosionCompressor;
+
+import com.github.gtexpert.inb.api.recipes.INBRecipeMaps;
 
 @Mixin(value = MetaTileEntityElectricImplosionCompressor.class, remap = false)
 public class MetaTileEntityElectricImplosionCompressorMixin {

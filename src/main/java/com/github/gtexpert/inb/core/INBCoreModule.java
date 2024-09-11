@@ -15,16 +15,16 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
 
+import gregtech.api.recipes.RecipeMaps;
+import gregtech.api.recipes.ingredients.GTRecipeInput;
+import gregtech.loaders.recipe.RecyclingRecipes;
+
 import com.github.gtexpert.inb.api.INBValues;
 import com.github.gtexpert.inb.api.modules.IINBModule;
 import com.github.gtexpert.inb.api.modules.INBModule;
 import com.github.gtexpert.inb.api.recipes.INBRecipeMaps;
 import com.github.gtexpert.inb.common.CommonProxy;
 import com.github.gtexpert.inb.modules.INBModules;
-
-import gregtech.api.recipes.RecipeMaps;
-import gregtech.api.recipes.ingredients.GTRecipeInput;
-import gregtech.loaders.recipe.RecyclingRecipes;
 
 @INBModule(
            moduleID = INBModules.MODULE_CORE,

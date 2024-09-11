@@ -6,7 +6,6 @@ import static gregtech.api.unification.ore.OrePrefix.dust;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemStack;
 
-import crafttweaker.annotations.ZenRegister;
 import gregtech.api.gui.GuiTextures;
 import gregtech.api.recipes.RecipeMap;
 import gregtech.api.recipes.RecipeMaps;
@@ -15,6 +14,8 @@ import gregtech.api.recipes.ingredients.GTRecipeInput;
 import gregtech.api.unification.material.Materials;
 import gregtech.common.blocks.MetaBlocks;
 import gregtech.common.items.MetaItems;
+
+import crafttweaker.annotations.ZenRegister;
 import stanhebben.zenscript.annotations.ZenExpansion;
 import stanhebben.zenscript.annotations.ZenProperty;
 

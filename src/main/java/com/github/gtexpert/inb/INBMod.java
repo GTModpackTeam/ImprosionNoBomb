@@ -18,12 +18,12 @@ import net.minecraftforge.fml.common.event.*;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
+import gregtech.GTInternalTags;
+
 import com.github.gtexpert.inb.api.INBValues;
 import com.github.gtexpert.inb.api.util.INBLog;
 import com.github.gtexpert.inb.modules.INBModuleManager;
 import com.github.gtexpert.inb.modules.INBModules;
-
-import gregtech.GTInternalTags;
 
 @Mod(modid = INBValues.MODID,
      name = INBValues.MODNAME,

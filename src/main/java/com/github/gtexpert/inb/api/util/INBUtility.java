@@ -13,12 +13,12 @@ import net.minecraftforge.oredict.OreDictionary;
 
 import org.jetbrains.annotations.NotNull;
 
-import com.github.gtexpert.inb.api.INBValues;
-
 import gregtech.api.unification.OreDictUnifier;
 import gregtech.api.unification.material.Material;
 import gregtech.api.unification.stack.ItemMaterialInfo;
 import gregtech.api.unification.stack.MaterialStack;
+
+import com.github.gtexpert.inb.api.INBValues;
 
 public class INBUtility {
 
