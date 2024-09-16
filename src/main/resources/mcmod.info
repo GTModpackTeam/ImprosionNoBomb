@@ -1,12 +1,19 @@
 [{
     "modid": "${modid}",
     "name": "${modname}",
-    "description": "An example mod for Minecraft 1.12.2 with Forge",
+    "description": "This mod removes the need for explosives in the Electric Implosion Compressor",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "logoFile": "",
+    "logoFile": "assets/inb/textures/icon/logo.png",
     "url": "",
-    "authorList": [],
+    "authorList": [
+        "MrKono",
+        "sysnote8main"
+    ],
     "credits": "",
-    "dependencies": []
+    "dependencies": [
+        "mixinbooter",
+        "gregtech",
+        "gcym"
+    ]
 }]
