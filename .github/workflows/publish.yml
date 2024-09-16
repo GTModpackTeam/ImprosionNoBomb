@@ -87,6 +87,7 @@ jobs:
           curseforge-token: "${{ secrets.CURSEFORGE_API_KEY }}"
           curseforge-dependencies: |
             gregtech-ce-unofficial(required)
+            gregicality-multiblocks(required)
           files: |
             build/libs/!(*-@(dev|sources|javadoc)).jar
             build/libs/*-@(sources).jar
