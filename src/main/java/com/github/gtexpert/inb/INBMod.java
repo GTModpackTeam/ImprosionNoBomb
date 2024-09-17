@@ -2,7 +2,6 @@ package com.github.gtexpert.inb;
 
 import java.util.function.Function;
 
-import com.github.gtexpert.inb.api.util.Mods;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -23,6 +22,7 @@ import gregtech.GTInternalTags;
 
 import com.github.gtexpert.inb.api.INBValues;
 import com.github.gtexpert.inb.api.util.INBLog;
+import com.github.gtexpert.inb.api.util.Mods;
 import com.github.gtexpert.inb.modules.INBModuleManager;
 import com.github.gtexpert.inb.modules.INBModules;
 
@@ -31,7 +31,7 @@ import com.github.gtexpert.inb.modules.INBModules;
      acceptedMinecraftVersions = "[1.12.2]",
      version = Tags.VERSION,
      dependencies = GTInternalTags.DEP_VERSION_STRING + "required-after:" + Mods.Names.MIXINBOOTER + ";" +
-        "required-after:" + Mods.Names.GREGICALITY_MULTIBLOCKS + ";")
+             "required-after:" + Mods.Names.GREGICALITY_MULTIBLOCKS + ";")
 @Mod.EventBusSubscriber(modid = INBValues.MODID)
 public class INBMod {
 
