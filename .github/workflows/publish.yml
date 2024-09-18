@@ -26,7 +26,7 @@ env:
 
   # Curseforge and Modrinth project IDs
   CURSEFORGE_PROJECT_ID: "1094386"
-  #MODRINTH_PROJECT_ID: "LRBGeIQP"
+  MODRINTH_PROJECT_ID: "1rUs8f3n"
 
 concurrency:
   group: publish-${{ github.head_ref || github.ref }}
@@ -79,10 +79,12 @@ jobs:
           github-draft: false
           github-prerelease: false
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          #modrinth-id: ${{ env.MODRINTH_PROJECT_ID }}
-          #modrinth-token: "${{ secrets.MODRINTH_API_KEY }}"
-          #modrinth-dependencies: |
-          #  tULldUx4(required)
+          modrinth-id: ${{ env.MODRINTH_PROJECT_ID }}
+          modrinth-token: "${{ secrets.MODRINTH_API_KEY }}"
+          modrinth-dependencies: |
+            8PB5NZf9(required)
+            vaQ5bJYU(required)
+            MeXYT7nJ(required)
           curseforge-id: ${{ env.CURSEFORGE_PROJECT_ID }}
           curseforge-token: "${{ secrets.CURSEFORGE_API_KEY }}"
           curseforge-dependencies: |
