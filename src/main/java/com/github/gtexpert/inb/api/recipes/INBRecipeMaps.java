@@ -37,6 +37,10 @@ public class INBRecipeMaps {
     public static final RecipeMap<SimpleRecipeBuilder> FAKE_IMPLOSION_RECIPES = new RecipeMapBuilder<>(
             "fake_implosion_compressor",
             new SimpleRecipeBuilder().duration(20).EUt(VA[LV]).hidden())
+                    .itemInputs(3)
+                    .itemOutputs(2)
+                    .fluidInputs(0)
+                    .fluidOutputs(0)
                     .onBuild(gregtechId("implosion_compressor"), recipeBuilder -> {
                         RecipeMaps.IMPLOSION_RECIPES.recipeBuilder()
                                 .inputs(recipeBuilder.getInputs().toArray(new GTRecipeInput[0]))
